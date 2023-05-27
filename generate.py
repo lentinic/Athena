@@ -11,7 +11,6 @@ from torch.nn import functional as F
 from dataclasses import dataclass
 from utils.registry import Model, Dataset
 from models import GPT2, ButterflyGPT
-from datasets import Shakespeare
 from contextlib import nullcontext
 
 @dataclass

@@ -12,7 +12,7 @@ from torch.nn import functional as F
 from dataclasses import dataclass
 from utils.registry import Model, Dataset, TrainingArguments
 from models import GPT2, ButterflyGPT
-from datasets import Shakespeare, TextFile
+from datasets import TextFile
 from contextlib import nullcontext
 
 @dataclass
