@@ -5,6 +5,10 @@ from utils.registry import Model
 from utils import optimization_config
 import math
 
+# ripped from Andrej Karpathy's nanogpt with some modification
+# https://github.com/karpathy/nanoGPT
+# nanogpt is available under MIT license
+
 class LayerNorm(nn.Module):
     """ LayerNorm but with an optional bias. PyTorch doesn't support simply bias=False """
 

@@ -6,6 +6,10 @@ from utils import optimization_config
 import math
 from torch_butterfly import Butterfly
 
+# ripped from Andrej Karpathy's nanogpt with some modification
+# https://github.com/karpathy/nanoGPT
+# nanogpt is available under MIT license
+
 class LayerNorm(nn.Module):
     """ LayerNorm but with an optional bias. PyTorch doesn't support simply bias=False """
 
